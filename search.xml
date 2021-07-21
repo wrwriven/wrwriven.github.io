@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>学习笔记</title>
+      <link href="/posts/203718118/"/>
+      <url>/posts/203718118/</url>
+      
+        <content type="html"><![CDATA[<h1 id="7-15"><a href="#7-15" class="headerlink" title="7-15"></a>7-15</h1><h2 id="晶体结构"><a href="#晶体结构" class="headerlink" title="晶体结构"></a>晶体结构</h2><p><strong>晶格+基元=晶体结构</strong><br>所有晶体的结构用晶格来描述，<strong>晶格</strong>是一种数学上的抽象，它是由数学上<br>的几何点在空间有规律地作周期性的无限重复分布构成的。在晶格的每一个格点上附有一群完全相同的原子，<strong>这样一个完全相同的原子群称为基元</strong>。当原子基元以相同的方式安置在每一个格点上，就构成了晶体结构。<strong>简单地说晶格加基元就形成晶体结构</strong>。</p><p><strong>原胞和基矢</strong><br>所有晶格的共同特点是具有周期性，通常用原胞和基矢来描述晶格的周期性，<strong>晶格的原胞(Primitive cell) 是指一个晶格最小的周期性单元</strong>，对三维晶格来说<strong>可以</strong>是一个<strong>平行六面体</strong>，对二维晶格可以是一个平行四边形。</p><p><strong>原胞中只包含一个格点原胞的选取不是唯一的</strong>。原则上讲只要是最小周期性单元都可以。</p><p>晶格基矢是指原胞的边矢量，一般用a1.a2.a3表示。<br>原胞的体积为：<strong>V=a1.(a2xa3)</strong></p><p><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/0715001.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/071500201.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/07015003.JPG"></p><p><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/0715004.JPG"></p><p><strong>Wigner-Seitz原胞</strong><br>作由晶格原点出发的所有晶格矢量的垂直平分面，这些垂直平分面所封闭的包含晶格原点的最小空间，称为Wigner-Seitz原胞。</p><p><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/0715005.JPG"></p><p>Wigner-Seitz 原胞在实空间意义不大，但是在倒空间（波矢空间），<strong>倒格子的Wigner-Seitz原胞是第一布里渊区</strong>，当波矢的长度靠近布里渊区边界的时候要发生全反射。</p><p><strong>单胞（晶胞）和轴矢</strong><br>有些情况下，原胞不能反映晶格的对称性，例如面心立方晶格的原胞，虽然已经选择得尽可能对称，但没有反映整个晶格的立方对称性。在这种情况下，晶体学选取的单元是面心立方的一个立方单元。为了反映晶格的对称性，选取了较大的周期性单元，<strong>常称晶体学选取的单元为惯用单胞(Conventional unit cell)，简称单胞</strong>。单胞的三个棱称为晶轴，沿晶轴的三个矢量通常称为单胞的基矢或轴矢，用a,b,c表示。轴矢的长度通常称为晶格常数。</p><p><strong>简单晶体结构</strong>，由完全等价的一种原子构成的晶体。基元中只有一个原子。Li丶Na丶K丶Rb丶Cs丶Fr丶Fe等具有提心立方简单晶体结构。面心立方晶格的简单晶体结构Cu丶Ag丶Au丶Al。<br><strong>复式晶体结构</strong><br>1.简单晶体结构的基元中只有一个原子。复式晶体结构的基元中包含两个或更多的原子。它们可以是相同的原子也可以是不同的原子。<br>2.相同原子但几何位置不等价的原子构成的晶体。金刚石结构的C、Si、Ge，六角密排结构Be、Mg、Zn。<br>3.复式晶体结构的特点：不等价原子各自构成相同的简单晶格（子晶格），复式结构由它们的子晶格相套而成。 Na+和Cl－各有一个相同的面心立方晶格。</p><p><strong>晶格的周期性描述—布拉伐格子（Bravais lattice）</strong><br><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/0715006.JPG">晶格基矢，只能取整数倍，和实空间的矢量时不一样的。<br>晶体可以看作是在布拉伐格子（Lattice）的每一个格点上放上一组原子（Basis 基元）构成的。</p><p>二维点阵有五种布拉伐格子：简单斜形，简单长方，有心长方，简单正方，简单六角。三维点阵的14种布拉伐格子。<br>二维晶格有5种，分为4个晶系。<br>斜方晶系，长方晶系，正方晶系，六角晶系。<br>三维晶格有14种，分为7个晶系。简单三斜晶系，单斜晶系（简单单斜，底心单斜），正交晶系（简单，底心，面心，体心），三角，六角，四方（简单，体心，面心）</p><p>晶体的一个基本特点是具有方向性，沿晶格的不同方向晶体性质可能不同。布拉伐格子的格<br>点可以看成分列在一系列相互平行的直线系上，这些直线系称为晶列。 在一个平面里，相邻晶列之间的距离相等每一簇晶列定义了两个方向-<strong>晶向</strong>。</p><p><strong>单胞晶向指数</strong>，基矢原胞系统和轴矢单胞系统中都可以定义晶向指数。如果不特别说明，在凝聚态和材料物理文献中出现的晶向指数，习惯上都定义在轴矢单胞系统中，也就是按<strong>每个晶系中简单晶格的格点来定义晶向指数</strong>。<br><strong>等效晶向</strong>，由于晶格的对称性，晶体在某些晶向上的性质可能是完全相同的，这些晶向称为等效晶向，统称一组等效晶向时用&lt; l1 l2 l3&gt;表示。</p><p><strong>晶体的晶面</strong>：布拉伐格子的格点还可以看成分列在平行等距的平面系上，这样的平面系称为晶面族，和晶列的情况相似，同一个布拉伐格子可以有无穷多方向不同的晶面系。这些相互平行、等间距的平面可以将所有的格点包括无遗。</p><p><strong>单胞晶面指数</strong>：基矢原胞系统和轴矢单胞系统中都可以定义晶面指数。如果不特别说明，在凝聚态和材料物理文献中出现的晶面指数，习惯上都理解为定义在轴矢单胞系统中。也就是按每个晶系中简单晶格的格点来定义晶面指数。通常以单胞轴矢表示的晶面指数，称为密勒指数，记为(h k l)。</p><h1 id="7-16"><a href="#7-16" class="headerlink" title="7-16"></a>7-16</h1><h2 id="晶体衍射和倒格子"><a href="#晶体衍射和倒格子" class="headerlink" title="晶体衍射和倒格子"></a>晶体衍射和倒格子</h2><p>晶体衍射技术：光子衍射，中子衍射和电子衍射来研究晶体。入射源到晶体，可转动的探测器。X射线衍射的方向和强度与晶体结构之间的关系。探测强度VS方向，强度VS能量。</p><h1 id="7-18"><a href="#7-18" class="headerlink" title="7-18"></a>7-18</h1><p>半导体中的电子状态</p><p>电子专改指的是电子的能量状态，宏观物体：1.动量，2.左边xyz。<br>微观粒子：1.波粒二象性，2.能量E，3.波速矢量k。<br>半导体中的电子状态和能带。<br>孤立原子中的电子状态，1.氢原子，2.多电子原子。<br>自由电子的状态，半导体中的电子状态。<br>氢原子的电子，在薛定谔方程的基础上有表达式。m0是电子的的惯性质量，q是电子电荷量，ε0是真空中的介电常数，h是普朗克常数，n是求解薛定谔方程中引入的一个量。n=1，2，3…..这是求解薛定谔方程的限制，否则方程是无解的。把n123状态表达式代进去</p><p>一个孤立的原子中电子的能量状态是不连续的，而是于一系列分离的能量的确定值上，称为能级。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> SiC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java算法</title>
+      <link href="/posts/2865894271/"/>
+      <url>/posts/2865894271/</url>
+      
+        <content type="html"><![CDATA[<h2 id="二分查找算法"><a href="#二分查找算法" class="headerlink" title="二分查找算法"></a>二分查找算法</h2><p>1.确定数组的中间下标，mid=(left+right)/2。<br>2.需要查找数的findVal和arr[mid]比较，findVAal&gt;arr[mid]说明要查找的数在mid的右边，因此需要递归的向右查找，否则需要递归的向左查找。如果相等，说明找到了。<br>什么时候需要结束递归？left&gt;right。</p><p>代码实现</p><pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">public class BinarySearch &#123;public static void main(String[] args)&#123;int arr[] &#x3D; &#123;1, 8, 10, 89, 1000, 1234&#125;;int resIndex &#x3D; binnarySearch(arr, 0, arr.length-1, 1);System.out.println(&quot;resIndex&#x3D;&quot; + resIndex);&#125;&#x2F;&#x2F;二分查找算法&#x2F;&#x2F;@arr数组 @left左边的索引 @right 右边的索引 findVal查找的值 @return 找到就返回下标，没有找到就返回-1public static ArrayList&lt;Integer&gt; binarySearch(int[] arr, int right, int left, int findVal) &#123;if(left &gt; right)&#123;return new ArrayList&lt;Integer&gt;();&#125;int mid &#x3D; (left+right) &#x2F; 2;int midVal &#x3D; arr[mid];if(findVal &gt; midVal) &#123;&#x2F;&#x2F;向右递归return binarySearch(arr, mid+1, right, findVal)；&#125;else if(findVal &lt; mid)&#123;return binarySearch(arr, left, mid-1, findVal);&#125;&#x2F;&#x2F;找到mid时索引不要返回。else&#123;ArrayList&lt;Integer&gt; resIndexlist &#x3D; new ArrayList&lt;Integer&gt;();&#x2F;&#x2F;向左边扫描int temp &#x3D; mid - 1;while(ture) &#123;if (temp &lt; 0 || arr[temp] !&#x3D; findVal) &#123;break;&#125;resIndexlist.add(temp);temp -&#x3D; 1;&#x2F;&#x2F;temp左移&#125;while(ture) &#123;if (temp &gt; arr.length -1 || arr[temp] !&#x3D; findVal) &#123;break;&#125;resIndexlist.add(temp);temp +&#x3D; 1;&#x2F;&#x2F;temp左移&#125;return resIndexlist;&#125;&#125;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>半导体表征</title>
+      <link href="/posts/3833513637/"/>
+      <url>/posts/3833513637/</url>
+      
+        <content type="html"><![CDATA[<p>X射线是一种电磁波，它的波长一般是10的负12次方米。X射线的产生，X射线管。X-射线强度谱：连续谱与特征峰，不同的电压下X射线的强度分布是不同的。分为连续谱和特征普。λmin=1.243/V。强度非常高的Kα和Kβ，被称为靶材的特征峰。他们的波长是固定值，特征峰额波长与靶材的原子系数Z有关，Mosely公式来表示√1/λ=K2(Z-σ),Z原子序数越大特征峰λ越小。</p><p>X射线特征峰是怎么产生的？当真空管中的电子轰击靶材的时候，靶材中的电子会被外来的电子从原子核的内层弹射出去，原子处于非平衡状态，原子外层中的电子跃迁到内层，在这个过程中散发的能量，这种能量就是X射线，因为原子它的壳层结构是固定的<br>。外层和内层之间的能量差是固定的，这个能量差也就是X射线，X射线特征谱的能量是固定的。</p><p>物质对X-射线的吸收规律：I/I0=e次方-μ1t，μ1：线性吸收系数。随着样片厚度增加X射线的强度呈指数形式下降<br>。材料的线性吸收系数越高，X射线的强度下降越快。μ1/p=μm：质量吸收系数。I/I0=e次方-μmpt。</p><h2 id="一-X射线的性质"><a href="#一-X射线的性质" class="headerlink" title="一.X射线的性质"></a>一.X射线的性质</h2><h3 id="X射线的本质"><a href="#X射线的本质" class="headerlink" title="X射线的本质"></a>X射线的本质</h3><p>x射线的本质与可见光、红外线、紫外线以及字宙射线完全相同，均属电磁波或电磁辐射。波长较可见光短，<strong>约与晶体的晶格常数为同</strong>。X射线波长的单位用纳米(nm)来表示，也常用埃(A)来表示。用于晶体结构分析的X线波长一般为0.25 ~0.05nm，由于波长较短，习惯上称之为“硬X线”。</p><p><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/0720.jpg" alt="电磁谱"></p><p>X线的<strong>波动性</strong>主要表现为以一定的频率和波长在空间传播:它的<strong>粒子性</strong>则主要衣现为它是由大量的不连续粒子流构成的，这些粒子流成为光子。X射线以光子的形式辐射和吸收时具有质量、能量和动量。描述x射线的<strong>波动性</strong>的参量频率v，波长λ，与描述<strong>粒子性</strong>的参量能量ε，动量p之间存在下述关系：ɛ=hv=hc/λ；p=h/λ。<br>普朗克常量：h=6.62607015×10-34 J·s；x射线的速度,等于2.998x10^8。<br>X射线的波长较可见光短得多，所以能量和动量很大，具有很强的穿透能力。电磁波是一种横波，当“单色”X射线即波长一定的X射线沿x方向传播时,同时具有电场矢量E和磁场矢量H,这两个矢量总以相同的周相,在两个相互垂直的平面内(即y、z方向)作周期振动,且与x方向相垂直，传播速度等于光速。在X射线分析中我们记录的是电场强度矢量E引起的物理效应，只讨论E矢量的变化。X射线的<strong>强度用波动性</strong>的观点描述可以认为是单位时间内通过垂直于传播方向的单位截面上的能量的大小。x射线的<strong>强度用粒子性</strong>描述为单位时间内通过单位截面的光量子数目。<br>波粒二象性是X射线的客观属性,但是在一定条件下可能只有某一方面的属性表现得较明显，条件变化后可能又使另一特性变得明显。X射线的波动性反映在物质运动的连续性和在传播过程中发生的干涉、衍射等过程中。<strong>当X射线与物质原子或电子相互作用时，光子只能整个地被原子或电子吸收或散射。</strong>波动和粒子两种模型。</p><h3 id="X射线的产生及X射线管"><a href="#X射线的产生及X射线管" class="headerlink" title="X射线的产生及X射线管"></a>X射线的产生及X射线管</h3><p><strong>可见光(热光源)的产生是由大量分子、原子在热激发下向外辐射电磁波的结果。</strong>而X射线则是由高速运动着的带电粒子与某种物质相撞击后猝然减速，且与该物质中的<strong>内层电子相作用而产生</strong>的。产生的基本条件：(1)产生自由电子;(2)使电子作定向高速运动;(3)在电子运动的路径上设置使其突然减速的障碍物。<br><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/072001.jpg" alt="X射线管剖面示意图"><br><strong>阴极</strong>的功能是发射电子。它由钨丝制成，在通以-定的电流加热后便能释放出热辐射电子。<br><strong>阳极</strong>又称之为靶(arget)。是使电子突然减速并发射X射线的地方。常用靶材主要有Cr.Fe、Co、Ni、Cu、Mo.Ag.W等，在软X射线装置中常用Al靶。<br><strong>窗口</strong>是X射线射出的通道。通常窗口有两个或四个，窗口材料要求既要有足够的强度以维持管内的高真空,又要对X射线的吸收较小，玻璃对x射线的吸收较大，所以不用，较好的材料是金属铍，有时也用硼酸铍锂构成的林德曼玻璃。<br>阴极发射的电子在数万伏的高压下向阳极加速，为使电子束集中，在阴极灯丝外加上聚焦罩,并使灯丝与聚焦罩之问始终保持100~400V的电位差。高速电子与阳极靶作用产生X射线，X射线是向四周发散的，大部分被管壳吸收，只有通过窗口的才能发射出去得以利用。电子束轰击阳极靶时只有1%的能量转化为X射线能量,其余的99%都转变为热能，所以从技术上必须将靶固定在高导热性的金属(黄铜或紫铜)之上，并通冷却水以<strong>防止靶的熔化</strong>。焦点(是重要特性之一)焦点是阳极靶表面被电子束轰击的一块面。</p><h3 id="连续X射线谱"><a href="#连续X射线谱" class="headerlink" title="连续X射线谱"></a>连续X射线谱</h3><p>如果我们对X射线管施加不同的电压，再用适当的方法去<strong>测量由x射线管发出的x射线的波长和强度</strong>，便会得到X射线强度与波长的关系曲线，称之为<strong>x射线谱</strong>。图Mo阳极X射线管在不同管压下的X射线谱，可以看出,在管压很低,小于20kV时的曲线是连续变化的，故而称这种X射线谱为<strong>连续谱</strong>。随管压增高,X射线强度增高，连续谱峰值所对应的波长向短波端移动。在各种管压下的连续谱都存在一个最短的波长值λ0，称为短波限。通常峰值位置大约在1.52λ0处。我们把这种具有连续谱的X射线叫做<strong>多色X射线</strong>、连续X射线或白色X射线。<br><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/3.JPG"><br>连续x射线的产生可同时有两种解释。按照<strong>经典电动力学</strong>概念，一个高速运动衰的电子到达靶面上时，因突然减速产生很大的负加速度，这种负加速度定会引起周围电磁场的急剧变化，产牛电磁波，按照<strong>量子理论</strong>的观点，当能量力eV的电子与靶的原子整体碰撞时，电子失去自己的能量，其中一部分以光子的形式释放出去。绝大多数到达靶上的电子要经过多次碰撞，逐步吧能量释放到零。同时产生一系列能量hv。<br>连续X射线谱上，当电压继续升高,大于某个临界值时,突然在连续谱的某个波长处出现强度峰，峰窄而尖锐，为便于观察。<strong>改变管电流、管电压，这些谱线只改变强度而峰的位置所对应的波长不变，即波长只与靶的原子序数有关，与电压无关。因这种强度峰的波长反映了物质的原子序数特征，所以叫特征X射线</strong>，由特征X射线构成的X射线谱叫特征X射线谱，而产生特征X射线的最低电压叫激发电压。</p><h2 id="二-X射线与物质的相互作用"><a href="#二-X射线与物质的相互作用" class="headerlink" title="二.X射线与物质的相互作用"></a>二.X射线与物质的相互作用</h2><p>从能量转换的观点宏观地看，可归结为三个能量转换过程: <strong>E1:散射能量</strong>; <strong>E2:吸收能量</strong>，包括真吸收变热部分和光电效应、俄歇效应、正电子吸收等; <strong>E3:透过物质</strong>，继续沿原人射方向传播的能量，包括波长改变和不改变两部分。根据能量守恒定律,E1+ E2+ E3=E。E为光子能量、电子能量、原子能量和剩余能量的总和。</p><h3 id="X射线的散射"><a href="#X射线的散射" class="headerlink" title="X射线的散射"></a>X射线的散射</h3><p>物质对X射线的散射主要是<strong>电子与X射线的相互作用</strong>的结果。物质中的核外电子可分为两大类:原子核<strong>束缚不紧的和原子核束缚较紧的电子</strong>,x射线照射到物质表面后对于这<strong>两类电子会产生两种散射效应</strong>。<br><strong>相干散射(弹性散射或汤姆逊散射)<strong>：当X射线与原子中</strong>束缚较紧的内层电子</strong>相撞时,光子把能量全部转给电子，电子受x射线电磁波的影响将绕其平衡位置发生受迫振动,不断被加速或被减速而且振动频率与入射X射线的相同。经典电磁理论告诉我们，一个加速的带电粒子可作为一一个 新波源向四周各方向发射电磁波,这样-来,这个电子本身又变成了一个新的电磁波源，向四周辐射电磁波,叫做X射线散射波。虽然人射波是单向的，但散射波却射向四面八方。这些散射波之间符合振动方向相同、频率相同、位相差恒定的光的干涉条件，所以可以发生干涉作用，故称之为相干散射。<br><strong>非相干散射(康普顿效应)<strong>：<br>当X射线光子与束缚力不大的</strong>外层</strong>电子或价电子或金属晶体中自由电子相碰撞时的散射过程可利用一个光子与一个电子的弹性碰擅机制来描述，这个电子将被撞离原运行方向同时带走光子的一部分动能成为<strong>反冲电子</strong>;根据动量和能量守恒,原来的X射线光量子也因碰撞而损失掉一部分能量，使得波长增加并与原方向偏离2θ角。散射光子和反冲电子的能量之和等于人射光子的能量。根据能量守恒和动量守恒的定律，可以推导出散射线波长的增大值为：<strong>△λ=λ’-λ=(约)0.0024（1-cos2θ）</strong>。λ入射光波长，λ’散射光波长。散射光波长不依赖入射光，只和散射角有关。</p><h3 id="X射线的吸收"><a href="#X射线的吸收" class="headerlink" title="X射线的吸收"></a>X射线的吸收</h3><p><strong>X射线照射到物体表面之后，有一部分要通过物质，一部分要被物质吸收。</strong>实验证明，强度为I的入射X射线在均匀物质内部通过时，强度的衰减率与在物质内通过的距离x成比例。比例系数<strong>μ称为线吸收系数</strong>，它的意义是在X射线的传播方向上，单位长度上的x射线强度衰减程度，μ与物质种类、密度、X射线波长有关。它的物理意义是单位重量物质对X射线的衰减量。μm与物质密度p和物质状态无关，而与物质原子序数Z和X射线波长λ有关。<br><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/721.png"><br><strong>光电效应</strong>是<strong>人射X射线的光量子与物质原子中电子</strong>相互碰撞时产生的物理效应。当人射光量子的能量足够大时，可以从被照射物质的原子内部(例如K壳层)击出一个电子，同时外层高能态电子要向内层的K空位跃迁，辐射出波长一定的特征X射线。为与人射X射线相区别称由X射线激发所产生的特征X射线为二次特征X射线或荧光X射线。这种以光子激发原子所发生的激发和辐射过程称为光电效应，被击出的电子称为<strong>光电子</strong>。一次特征X射线的一部分能量转变为所照射物质的二次特征辐射，表现为物质对入射X射线的吸收,这一吸收非常强烈。为产生K系荧光辐射，人射光子的能量hv必须大于或等于K层电子的逸出功Wk,即hv≥Wk,而Wk=eVk，v=c/λ。<br><strong>俄歇效应（Auger effect）</strong>是原子发射的一个电子导致另一个或多个电子（俄歇电子）被发射出来而非辐射X射线（不能用光电效应解释），使原子、分子成为高阶离子的物理现象，是伴随一个电子能量降低的同时，另一个（或多个）电子能量增高的跃迁过程。二次电子的能量有固定值，从L层逃出的电子叫KLL俄歇电子。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> SiC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/1243066710/"/>
+      <url>/posts/1243066710/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

@@ -1,0 +1,1008 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="半导体表征, RivenBlog">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>半导体表征 | RivenBlog</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">RivenBlog</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">RivenBlog</div>
+        <div class="logo-desc">
+            
+            安好
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wrwriven/photos/state.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">半导体表征</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/SiC/">
+                                <span class="chip bg-color">SiC</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-07-10
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-07-21
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.4k
+                </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>X射线是一种电磁波，它的波长一般是10的负12次方米。X射线的产生，X射线管。X-射线强度谱：连续谱与特征峰，不同的电压下X射线的强度分布是不同的。分为连续谱和特征普。λmin=1.243/V。强度非常高的Kα和Kβ，被称为靶材的特征峰。他们的波长是固定值，特征峰额波长与靶材的原子系数Z有关，Mosely公式来表示√1/λ=K2(Z-σ),Z原子序数越大特征峰λ越小。</p>
+<p>X射线特征峰是怎么产生的？当真空管中的电子轰击靶材的时候，靶材中的电子会被外来的电子从原子核的内层弹射出去，原子处于非平衡状态，原子外层中的电子跃迁到内层，在这个过程中散发的能量，这种能量就是X射线，因为原子它的壳层结构是固定的<br>。外层和内层之间的能量差是固定的，这个能量差也就是X射线，X射线特征谱的能量是固定的。</p>
+<p>物质对X-射线的吸收规律：I/I0=e次方-μ1t，μ1：线性吸收系数。随着样片厚度增加X射线的强度呈指数形式下降<br>。材料的线性吸收系数越高，X射线的强度下降越快。μ1/p=μm：质量吸收系数。I/I0=e次方-μmpt。</p>
+<h2 id="一-X射线的性质"><a href="#一-X射线的性质" class="headerlink" title="一.X射线的性质"></a>一.X射线的性质</h2><h3 id="X射线的本质"><a href="#X射线的本质" class="headerlink" title="X射线的本质"></a>X射线的本质</h3><p>x射线的本质与可见光、红外线、紫外线以及字宙射线完全相同，均属电磁波或电磁辐射。波长较可见光短，<strong>约与晶体的晶格常数为同</strong>。X射线波长的单位用纳米(nm)来表示，也常用埃(A)来表示。用于晶体结构分析的X线波长一般为0.25 ~0.05nm，由于波长较短，习惯上称之为“硬X线”。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/0720.jpg" alt="电磁谱"></p>
+<p>X线的<strong>波动性</strong>主要表现为以一定的频率和波长在空间传播:它的<strong>粒子性</strong>则主要衣现为它是由大量的不连续粒子流构成的，这些粒子流成为光子。X射线以光子的形式辐射和吸收时具有质量、能量和动量。描述x射线的<strong>波动性</strong>的参量频率v，波长λ，与描述<strong>粒子性</strong>的参量能量ε，动量p之间存在下述关系：ɛ=hv=hc/λ；p=h/λ。<br>普朗克常量：h=6.62607015×10-34 J·s；x射线的速度,等于2.998x10^8。<br>X射线的波长较可见光短得多，所以能量和动量很大，具有很强的穿透能力。电磁波是一种横波，当“单色”X射线即波长一定的X射线沿x方向传播时,同时具有电场矢量E和磁场矢量H,这两个矢量总以相同的周相,在两个相互垂直的平面内(即y、z方向)作周期振动,且与x方向相垂直，传播速度等于光速。在X射线分析中我们记录的是电场强度矢量E引起的物理效应，只讨论E矢量的变化。X射线的<strong>强度用波动性</strong>的观点描述可以认为是单位时间内通过垂直于传播方向的单位截面上的能量的大小。x射线的<strong>强度用粒子性</strong>描述为单位时间内通过单位截面的光量子数目。<br>波粒二象性是X射线的客观属性,但是在一定条件下可能只有某一方面的属性表现得较明显，条件变化后可能又使另一特性变得明显。X射线的波动性反映在物质运动的连续性和在传播过程中发生的干涉、衍射等过程中。<strong>当X射线与物质原子或电子相互作用时，光子只能整个地被原子或电子吸收或散射。</strong>波动和粒子两种模型。</p>
+<h3 id="X射线的产生及X射线管"><a href="#X射线的产生及X射线管" class="headerlink" title="X射线的产生及X射线管"></a>X射线的产生及X射线管</h3><p><strong>可见光(热光源)的产生是由大量分子、原子在热激发下向外辐射电磁波的结果。</strong>而X射线则是由高速运动着的带电粒子与某种物质相撞击后猝然减速，且与该物质中的<strong>内层电子相作用而产生</strong>的。产生的基本条件：(1)产生自由电子;(2)使电子作定向高速运动;(3)在电子运动的路径上设置使其突然减速的障碍物。<br><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/072001.jpg" alt="X射线管剖面示意图"><br><strong>阴极</strong>的功能是发射电子。它由钨丝制成，在通以-定的电流加热后便能释放出热辐射电子。<br><strong>阳极</strong>又称之为靶(arget)。是使电子突然减速并发射X射线的地方。常用靶材主要有Cr.Fe、Co、Ni、Cu、Mo.Ag.W等，在软X射线装置中常用Al靶。<br><strong>窗口</strong>是X射线射出的通道。通常窗口有两个或四个，窗口材料要求既要有足够的强度以维持管内的高真空,又要对X射线的吸收较小，玻璃对x射线的吸收较大，所以不用，较好的材料是金属铍，有时也用硼酸铍锂构成的林德曼玻璃。<br>阴极发射的电子在数万伏的高压下向阳极加速，为使电子束集中，在阴极灯丝外加上聚焦罩,并使灯丝与聚焦罩之问始终保持100~400V的电位差。高速电子与阳极靶作用产生X射线，X射线是向四周发散的，大部分被管壳吸收，只有通过窗口的才能发射出去得以利用。电子束轰击阳极靶时只有1%的能量转化为X射线能量,其余的99%都转变为热能，所以从技术上必须将靶固定在高导热性的金属(黄铜或紫铜)之上，并通冷却水以<strong>防止靶的熔化</strong>。焦点(是重要特性之一)焦点是阳极靶表面被电子束轰击的一块面。</p>
+<h3 id="连续X射线谱"><a href="#连续X射线谱" class="headerlink" title="连续X射线谱"></a>连续X射线谱</h3><p>如果我们对X射线管施加不同的电压，再用适当的方法去<strong>测量由x射线管发出的x射线的波长和强度</strong>，便会得到X射线强度与波长的关系曲线，称之为<strong>x射线谱</strong>。图Mo阳极X射线管在不同管压下的X射线谱，可以看出,在管压很低,小于20kV时的曲线是连续变化的，故而称这种X射线谱为<strong>连续谱</strong>。随管压增高,X射线强度增高，连续谱峰值所对应的波长向短波端移动。在各种管压下的连续谱都存在一个最短的波长值λ0，称为短波限。通常峰值位置大约在1.52λ0处。我们把这种具有连续谱的X射线叫做<strong>多色X射线</strong>、连续X射线或白色X射线。<br><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/3.JPG"><br>连续x射线的产生可同时有两种解释。按照<strong>经典电动力学</strong>概念，一个高速运动衰的电子到达靶面上时，因突然减速产生很大的负加速度，这种负加速度定会引起周围电磁场的急剧变化，产牛电磁波，按照<strong>量子理论</strong>的观点，当能量力eV的电子与靶的原子整体碰撞时，电子失去自己的能量，其中一部分以光子的形式释放出去。绝大多数到达靶上的电子要经过多次碰撞，逐步吧能量释放到零。同时产生一系列能量hv。<br>连续X射线谱上，当电压继续升高,大于某个临界值时,突然在连续谱的某个波长处出现强度峰，峰窄而尖锐，为便于观察。<strong>改变管电流、管电压，这些谱线只改变强度而峰的位置所对应的波长不变，即波长只与靶的原子序数有关，与电压无关。因这种强度峰的波长反映了物质的原子序数特征，所以叫特征X射线</strong>，由特征X射线构成的X射线谱叫特征X射线谱，而产生特征X射线的最低电压叫激发电压。</p>
+<h2 id="二-X射线与物质的相互作用"><a href="#二-X射线与物质的相互作用" class="headerlink" title="二.X射线与物质的相互作用"></a>二.X射线与物质的相互作用</h2><p>从能量转换的观点宏观地看，可归结为三个能量转换过程: <strong>E1:散射能量</strong>; <strong>E2:吸收能量</strong>，包括真吸收变热部分和光电效应、俄歇效应、正电子吸收等; <strong>E3:透过物质</strong>，继续沿原人射方向传播的能量，包括波长改变和不改变两部分。根据能量守恒定律,E1+ E2+ E3=E。E为光子能量、电子能量、原子能量和剩余能量的总和。</p>
+<h3 id="X射线的散射"><a href="#X射线的散射" class="headerlink" title="X射线的散射"></a>X射线的散射</h3><p>物质对X射线的散射主要是<strong>电子与X射线的相互作用</strong>的结果。物质中的核外电子可分为两大类:原子核<strong>束缚不紧的和原子核束缚较紧的电子</strong>,x射线照射到物质表面后对于这<strong>两类电子会产生两种散射效应</strong>。<br><strong>相干散射(弹性散射或汤姆逊散射)<strong>：当X射线与原子中</strong>束缚较紧的内层电子</strong>相撞时,光子把能量全部转给电子，电子受x射线电磁波的影响将绕其平衡位置发生受迫振动,不断被加速或被减速而且振动频率与入射X射线的相同。经典电磁理论告诉我们，一个加速的带电粒子可作为一一个 新波源向四周各方向发射电磁波,这样-来,这个电子本身又变成了一个新的电磁波源，向四周辐射电磁波,叫做X射线散射波。虽然人射波是单向的，但散射波却射向四面八方。这些散射波之间符合振动方向相同、频率相同、位相差恒定的光的干涉条件，所以可以发生干涉作用，故称之为相干散射。<br><strong>非相干散射(康普顿效应)<strong>：<br>当X射线光子与束缚力不大的</strong>外层</strong>电子或价电子或金属晶体中自由电子相碰撞时的散射过程可利用一个光子与一个电子的弹性碰擅机制来描述，这个电子将被撞离原运行方向同时带走光子的一部分动能成为<strong>反冲电子</strong>;根据动量和能量守恒,原来的X射线光量子也因碰撞而损失掉一部分能量，使得波长增加并与原方向偏离2θ角。散射光子和反冲电子的能量之和等于人射光子的能量。根据能量守恒和动量守恒的定律，可以推导出散射线波长的增大值为：<strong>△λ=λ’-λ=(约)0.0024（1-cos2θ）</strong>。λ入射光波长，λ’散射光波长。散射光波长不依赖入射光，只和散射角有关。</p>
+<h3 id="X射线的吸收"><a href="#X射线的吸收" class="headerlink" title="X射线的吸收"></a>X射线的吸收</h3><p><strong>X射线照射到物体表面之后，有一部分要通过物质，一部分要被物质吸收。</strong>实验证明，强度为I的入射X射线在均匀物质内部通过时，强度的衰减率与在物质内通过的距离x成比例。比例系数<strong>μ称为线吸收系数</strong>，它的意义是在X射线的传播方向上，单位长度上的x射线强度衰减程度，μ与物质种类、密度、X射线波长有关。它的物理意义是单位重量物质对X射线的衰减量。μm与物质密度p和物质状态无关，而与物质原子序数Z和X射线波长λ有关。<br><img src="https://cdn.jsdelivr.net/gh/wrwriven/photos/721.png"><br><strong>光电效应</strong>是<strong>人射X射线的光量子与物质原子中电子</strong>相互碰撞时产生的物理效应。当人射光量子的能量足够大时，可以从被照射物质的原子内部(例如K壳层)击出一个电子，同时外层高能态电子要向内层的K空位跃迁，辐射出波长一定的特征X射线。为与人射X射线相区别称由X射线激发所产生的特征X射线为二次特征X射线或荧光X射线。这种以光子激发原子所发生的激发和辐射过程称为光电效应，被击出的电子称为<strong>光电子</strong>。一次特征X射线的一部分能量转变为所照射物质的二次特征辐射，表现为物质对入射X射线的吸收,这一吸收非常强烈。为产生K系荧光辐射，人射光子的能量hv必须大于或等于K层电子的逸出功Wk,即hv≥Wk,而Wk=eVk，v=c/λ。<br><strong>俄歇效应（Auger effect）</strong>是原子发射的一个电子导致另一个或多个电子（俄歇电子）被发射出来而非辐射X射线（不能用光电效应解释），使原子、分子成为高阶离子的物理现象，是伴随一个电子能量降低的同时，另一个（或多个）电子能量增高的跃迁过程。二次电子的能量有固定值，从L层逃出的电子叫KLL俄歇电子。</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <i class="fas fa-exclamation-circle"></i>
+            <span>
+                本文不允许转载。
+            </span>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/SiC/">
+                                    <span class="chip bg-color">SiC</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/posts/2865894271/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Java算法">
+                        
+                        <span class="card-title">Java算法</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Java算法
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-11
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Riven
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%AE%97%E6%B3%95/">
+                        <span class="chip bg-color">算法</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/1243066710/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        
+                        <span class="card-title">Hello World</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-10
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Riven
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="644883057"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2021</span>
+            
+            <span id="year">2021</span>
+            <a href="/about" target="_blank">Riven</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">5.6k</span>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+    <!-- 动态线条背景-->
+
+
+    <script type="text/javascript"
+        color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+    </script>
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
